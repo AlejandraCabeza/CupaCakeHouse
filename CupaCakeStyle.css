@@ -1,0 +1,52 @@
+body{
+	font-family: "Lato", Arial, Sans Serif;
+}
+
+
+
+#brandimage {
+    height: auto;
+    width: auto;
+    max-height: 60px;
+    max-width: 140px;
+}
+.navbar{
+	margin:0;
+}
+
+.jumbotron{
+	text-align: center;
+	padding: 25vh;
+	width: 100%
+	opacity: 0.5;
+
+	color:#fff;
+	background: #000 url(cb.jpg) top center no-repeat;
+	background-size: cover;
+
+	position: relative;
+
+
+}
+
+
+
+h1{
+	font-weight: bold;
+}
+
+.container{
+	width: 75%;
+	margin-top:60px;
+}
+
+.thumbnail{
+	margin-right: 10%;
+}
+
+#textabout{
+
+	font-size: 1.5em;
+	text-align: justify;
+}
+
