@@ -19,11 +19,9 @@ body{
 	padding: 25vh;
 	width: 100%
 	opacity: 0.5;
-
 	color:#fff;
 	background: #000 url(cb.jpg) top center no-repeat;
 	background-size: cover;
-
 	position: relative;
 
 
@@ -48,16 +46,58 @@ h1{
 
 }
 
+
 .backproject{
 	background-color: #2E112D;
 	width: 100%;
 }
 
-
-#products{
-	margin:auto;
-	padding: 10% 0 10% 0;
+#titleprod{
+	color:white;
+	margin-bottom: 3%;
 }
+
+.row{
+	margin:3%;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #c1c1c1;
+}
+
+#first:hover .overlay, #second:hover .overlay, #third:hover .overlay,
+#fourth:hover .overlay, #fifth:hover .overlay, #sixth:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
 
 #contact{
 	padding: 5% 0 5% 0;
@@ -80,7 +120,7 @@ h1{
     z-index: 99; 
     border: none; 
     outline: none; 
-    background-color: black; 
+    background-color: #4f4a54; 
     color: white;
     cursor: pointer; 
     padding: 15px; 
@@ -89,5 +129,9 @@ h1{
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #c1c1c1; 
+}
+
+#arrow{
+	font-size: 35px;
 }
