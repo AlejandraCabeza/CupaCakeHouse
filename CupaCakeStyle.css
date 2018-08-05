@@ -1,5 +1,5 @@
 body{
-	font-family: "Lato", Arial, Sans Serif;
+  font-family: "Lato", Arial, Sans Serif;
 }
 
 
@@ -11,18 +11,19 @@ body{
     max-width: 140px;
 }
 .navbar{
-	margin:0;
+  margin:0;
 }
 
 .jumbotron{
-	text-align: center;
-	padding: 25vh;
-	width: 100%
-	opacity: 0.5;
-	color:#fff;
-	background: #000 url(cb.jpg) top center no-repeat;
-	background-size: cover;
-	position: relative;
+  text-align: center;
+  padding: 25vh;
+  width: 100%;
+    height: 700px;
+  opacity: 99.9;
+  color:#fff;
+  background: #000 url(https://i.imgur.com/aS0ReWm.jpg) top center no-repeat;
+  background-size: cover;
+  position: relative;
 
 
 }
@@ -30,43 +31,59 @@ body{
 
 
 h1{
-	font-weight: bold;
+  font-family:'Dosis', sans-serif;
+  font-size: 50px;
+  margin-top: 5%;
+}
+
+#imgcup{
+  margin-top: -25%;
 }
 
 .about{
-	width: 75%;
-	padding: 10% 0 10% 0;
+  width: 75%;
+  padding: 10% 0 10% 0;
+}
+
+#btnprod{
+  background-color: #531959;
+  color: white;
+  border-color: #531959;
 }
 
 
 #textabout{
 
-	font-size: 1.5em;
-	text-align: justify;
+  font-size: 1.5em;
+  text-align: justify;
 
 }
 
 
 .backproject{
-	background-color: #2E112D;
-	width: 100%;
+  background-color: #2E112D;
+  width: 100%;
 }
 
 #titleprod{
-	color:white;
-	margin-bottom: 3%;
+  color:white;
+  margin-bottom: 3%;
 }
 
 .row{
-	margin:3%;
+  margin:5%;
+  
+}
+
+#size{
+   height: auto; 
+    width: auto; 
+    max-width: 330px; 
+    max-height: 235px;
 }
 
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
 
 .overlay {
   position: absolute;
@@ -100,15 +117,15 @@ h1{
 
 
 #contact{
-	padding: 5% 0 5% 0;
+  padding: 5% 0 5% 0;
 }
 
 #address{
-	text-align: center;
+  text-align: center;
 }
 
 #follow{
-	text-align: center;
+  text-align: center;
 }
 
 
@@ -133,5 +150,9 @@ h1{
 }
 
 #arrow{
-	font-size: 35px;
+  font-size: 35px;
+}
+
+li{
+  text-decoration-style: none;
 }
